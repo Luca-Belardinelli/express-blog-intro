@@ -18,27 +18,27 @@ app.get('/lista', (req, res) => {
         {
             titolo : "ciambellone",
             contenuto: 1,
-            image: "http://localhost:3000/images/ciambellone.jpeg",
+            image: "./images/ciambellone.jpeg",
             tags: ["cucina", "ciambellone", "dolce"],
         }, {
             titolo : "cracker barbabietola",
             contenuto: 2,
-            image: "http://localhost:3000/images/cracker_barbabietola.jpeg",
+            image: "./images/cracker_barbabietola.jpeg",
             tags: ["cucina", "cracker", "barbabietola"],
         }, {
             titolo : "pane fritto dolce",
             contenuto: 3,
-            image: "http://localhost:3000/images/pane_fritto_dolce.jpeg",
+            image: "./images/pane_fritto_dolce.jpeg",
             tags: ["cucina", "pane", "fritto ", "dolce"],
         }, {
             titolo : "pasta barbabietola",
             contenuto: 4,
-            image: "http://localhost:3000/images/pasta_barbabietola.jpeg",
+            image: "./images/pasta_barbabietola.jpeg",
             tags: ["cucina", "pasta", "barbabietola"],
         }, {
             titolo : "torta paesana",
             contenuto: 5,
-            image: "http://localhost:3000/images/torta_paesana.jpeg",
+            image: "./images/torta_paesana.jpeg",
             tags: ["cucina", "torta", "paesana", "dolce"],
         }
     ];
